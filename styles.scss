@@ -84,7 +84,9 @@ body{
         display: flex;
         flex-direction: row-reverse;
         margin: 0;
-        height: 80vh;
+    }
+    .info-wrapper{
+        padding: 0.75rem 1rem;
     }
     .img-container, .img-container img, .pictureOverlay{
         height: 100%;
@@ -103,13 +105,15 @@ body{
     .stat{
         display:flex;
         justify-content: center;
-        margin: 1.25rem;
+        margin: 1rem;
+        margin-bottom: 0;
         h2{
             font-size: 1rem;
             padding-left: 1rem;
         }
         p{
             font-size: 0.875rem;
+            margin-bottom: 0;
         }
     }
 }
